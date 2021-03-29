@@ -4,7 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ .Site.Title }}</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+        {{ $bulma := resources.Get "bulma/bulma.sass" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+        <link rel="stylesheet" href="{{ $bulma.Permalink }}">        
+
     </head>
     <body class="has-navbar-fixed-top">
         <nav class="navbar is-fixed-top has-shadow is-dark">
