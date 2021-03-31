@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ .Site.Title }}</title>
 
-        {{ $bulma := resources.Get "bulma/bulma.sass" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
-        <link rel="stylesheet" href="{{ $bulma.Permalink }}">        
+        {{ $style := resources.Get "style.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+        <link rel="stylesheet" href="{{ $style.Permalink }}">        
 
     </head>
-    <body class="has-navbar-fixed-top">
+    <body class="has-navbar-fixed-top has-background-primary-dark">
         <nav class="navbar is-fixed-top has-shadow is-dark">
             <div class="container">
                 <a href="/" class="navbar-item has-text-white">
@@ -20,10 +20,6 @@
                 {{ end}}
             </div>
         </nav>
-        <section class="section">
-            <div class="container">
-            {{ block "content" . }} {{ end }}
-            </div>
-        </section>
+        {{ block "content" . }} {{ end }}
     </body>
 </html>

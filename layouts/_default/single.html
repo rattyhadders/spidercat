@@ -1,8 +1,12 @@
 {{ define "content" }}
+    <section class="section">
+        <div class="container">
             <h1 class="title">{{ .Page.Title }}</h1>
             <div>
                 <article id="content" class="content">
                     {{ .Content }}
                 </article>
             </div>
+        </div>
+    </section>
 {{ end }}

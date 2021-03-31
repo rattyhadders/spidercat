@@ -1,0 +1,12 @@
+$text: #FFD1AA;
+$primary-dark: #2D882D;
+@import "bulma/bulma.sass";
+
+.bg-img { 
+    background-image: url(banner.jpg);
+    background-position: top;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+ }
