@@ -14,8 +14,8 @@
 
     <section class="section">
         <div class="container">
-                <div class="block">
-                    <p>Lots of cool stuff coming soon!</p>
+                <div class="content">
+                    {{ partial "home-content.md" . | markdownify }}
                 </div>
                 <ul>
                     {{ range where .Site.RegularPages "Section" "posts" }}
