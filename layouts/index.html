@@ -17,11 +17,28 @@
                 <div class="content">
                     {{ partial "home-content.md" . | markdownify }}
                 </div>
-                <ul>
+                <div class="releases">
+
                     {{ range where .Site.RegularPages "Section" "posts" }}
-                    <li>{{ .Date.Format "Jan 2, 2006" }} <a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a></li>
+
+                    <div class="release-box">
+                        <div>
+                            <p class="title is-5">
+                                <a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
+                            </p>
+                        </div>
+                        <p>
+                            {{ .Date.Format "Jan 2, 2006" }}
+                        </p>
+                        <div class="cover-image">
+                            <a href="{{ .Permalink }}">
+                                <img src="img/{{ .Params.cover }}" alt="{{ .Title }} cover image" />
+                            </a>                    
+                        </div>
+                    </div>
+
                     {{ end }}
-                </ul>
+                </div>
         </div>
     </section>
 

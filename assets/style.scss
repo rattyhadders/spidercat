@@ -10,8 +10,25 @@ $primary-dark: #D5FFC2;
     background-color: #999;
  }
 
- .logo {
+.logo {
     position: fixed;
     top: 100px;
     left: 50px;
+    z-index: 254;
  }
+
+.releases {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.release-box {
+   box-shadow: 8px 8px 5px #888;
+   padding: 8px 12px;
+   margin: 24px;
+   border-radius: 20px;
+ }
+
+.cover-image {
+   border-radius: 10px;
+}
