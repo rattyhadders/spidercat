@@ -1,45 +1,38 @@
 {{ define "content"}}
 
-    <div class="logo image is-128x128">
-        <img class="is-rounded" src="spidercat.jpg">
+<section class="hero is-large is-dark">
+    <div class="hero-body bg-img">
+        <p class="title">{{ .Page.Title }}</p>
+        <p class="subtitle">We live on a farm and make epic rock music</p>
     </div>
+</section>
 
-    <section class="hero is-large is-dark">
-        <div class="hero-body bg-img">
-            <p class="title">{{ .Page.Title }}</p>
-            <p class="subtitle">We live on a farm and make epic rock music</p>
+
+<section class="section">
+    <div class="container">
+        <div class="content">
+            {{ partial "home-content.md" . | markdownify }}
         </div>
-    </section>
-
-
-    <section class="section">
-        <div class="container">
-                <div class="content">
-                    {{ partial "home-content.md" . | markdownify }}
-                </div>
-                <div class="releases">
-
-                    {{ range where .Site.RegularPages "Section" "posts" }}
-
-                    <div class="release-box">
-                        <div>
-                            <p class="title is-5">
-                                <a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
-                            </p>
-                        </div>
-                        <p>
-                            {{ .Date.Format "Jan 2, 2006" }}
-                        </p>
-                        <div class="cover-image">
-                            <a href="{{ .Permalink }}">
-                                <img src="img/{{ .Params.cover }}" alt="{{ .Title }} cover image" />
-                            </a>                    
-                        </div>
-                    </div>
-
-                    {{ end }}
-                </div>
+{{ range $index, $val := where .Site.RegularPages "Section" "posts" }}
+    {{ if eq (mod $index 3) 0 }}
+        <div class="tile is-ancestor">
+    {{ end }}
+            <div class="tile is-parent">
+                <a href="{{ .Permalink }}">
+                    <article class="tile is-child notification is-dark">
+                        <p class="title">{{ .Title }}</p>
+                        <p class="subtitle">{{ .Date.Format "jan 2, 2006" }}</p>
+                        <figure class="image is-3by3">
+                            <img src="img/{{ .Params.cover }}" alt="{{ .Title }} cover image" />
+                        </figure>
+                    </article>
+                </a>
+            </div>
+    {{ if eq (mod $index 3) 2 }}
         </div>
-    </section>
+    {{ end }}
+{{ end }}
+    </div>
+</section>
 
 {{ end }}
