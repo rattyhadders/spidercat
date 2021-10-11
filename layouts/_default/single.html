@@ -1,11 +1,37 @@
 {{ define "content" }}
     <section class="section">
         <div class="container">
-            <h1 class="title">{{ .Page.Title }}</h1>
+            <h1 class="title is-1">{{ .Page.Title }}</h1>
+            <p>{{ .Date.Format "January 2, 2006" }}</p>
+            <div> &nbsp; </div>
+            <div>
+                {{ with .Params.music }}
+                <audio controls src="/music/{{ . }}" />
+                {{ end }}
+            </div>
+            <div> &nbsp; </div>
             <div>
                 <article id="content" class="content">
                     {{ .Content }}
                 </article>
+            </div>
+            <div> &nbsp; </div>
+            <div>
+                <ul>
+                {{ with .Params.bandcamp }}
+                    <li><strong><a href="{{ . }}">Bandcamp</a></strong></li>
+                {{ end }}
+                {{ with .Params.spotify }}
+                    <li><strong><a href="{{ . }}">Spotify</a></strong></li>
+                {{ end }}
+                {{ with .Params.soundcloud }}
+                    <li><strong><a href="{{ . }}">SoundCloud</a></strong></li>
+                {{ end }}
+                </ul>
+            </div>
+            <div> &nbsp; </div>
+            <div>
+                <img src="/img/{{ .Params.cover }}" alt="{{ .Title }} cover image" />
             </div>
         </div>
     </section>

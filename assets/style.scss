@@ -1,4 +1,20 @@
-$primary-dark: #D5FFC2;
+@charset "utf-8";
+
+// Import a Google Font https://fonts.google.com/
+@import url('https://fonts.googleapis.com/css?family=Gugi:400,700');
+
+$family-sans-serif: "Gugi", sans-serif;
+
+// https://paletton.com/#uid=32b050kiDKpsRjjpnukkarqd8eS
+$primary: #DAF968;
+$primary-dark: #DAF968;
+$grey: #740B54;
+$grey-dark: #740B54;
+$grey-light: #740B54;
+$link: #CD58D1;
+$white: #DAF968;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
 @import "bulma/bulma.sass";
 
 .bg-img { 
@@ -7,5 +23,5 @@ $primary-dark: #D5FFC2;
     background-repeat:  no-repeat;
     background-attachment: fixed;
     background-size:  100% auto;
-    background-color: #999;
+    background-color: #610A64;
  }
