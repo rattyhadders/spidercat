@@ -2,7 +2,15 @@
 
 __Follow us on: [Twiter](https://twitter.com/SpidercatB), [BandCamp](https://spidercat.bandcamp.com/), and [Spotify](https://open.spotify.com/artist/21gCBDxNPbt9t2UppCJQRZ?si=uXKyGWNyQmWrWRA4MgZJnw)__
 
-Spidercat. A motley assortment of characters from around Brighton UK. We have Badger Brewington on Bass, Vocals, and keys, Ratty Hadders on guitar and vocals, and Doggy Dunton on drums. Gradually coalescing in the summer of 2018 in a barn at Spidercat Farm, their first single Sunshine was released after a summer recording session. Other songs have slowly surfaced since then, including I Don’t Want To Fall in 2019 and Fisherman in 2020. Spidercat performed a single secret gig at the farm to an audience of fellow small mammals in mid 2019, but have not been seen since. Spidercat is influenced by the golden era of 60’s and 70’s music, love, peace, and chocolate biscuits.
+Spidercat. We are Badger, Ratty, and Dog. We live on a farm in Sussex and make epic, progressive, retro rock/pop. We are not a spider, or a cat.
+
+__Badger Brewington__ on Bass, Vocals, and Keys. Space-shaman, eco-spiritualist, Artist, and Poet. Can feel the energy on Mount Caburn. Loves ale and mushrooms.
+
+__Ratty Hadders__ on Guitar. Fuzzjunkie, personal hygene issues, stoner, and uber geek. Likes fixing tractors and making his own guitar pedals. Loves ale and weed.
+
+__Doggy Dunton__ on drums. Gentleman farmer, bon-viveur, and charmer. Knows the name of every plant. Loves good food and pinot noir.
+
+Gradually coalescing in the summer of 2018 in a barn at Spidercat Farm, their first single Sunshine was released after a summer recording session. Other songs have slowly surfaced since then, including I Don’t Want To Fall in 2019 and Fisherman in 2020. Spidercat performed a single secret gig at the farm to an audience of fellow small mammals in mid 2019, but have not been seen since. Spidercat is influenced by the golden era of 60’s and 70’s music, love, peace, and chocolate biscuits.
 
 For more about us, check out [an interview with Badger here](top/interview/)
 
