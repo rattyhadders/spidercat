@@ -8,8 +8,8 @@ __Badger Brewington__ on Bass, Vocals, and Keys. Space-shaman, eco-spiritualist,
 
 __Ratty Hadders__ on Guitar. Fuzzjunkie, personal hygene issues, stoner, and uber geek. Likes fixing tractors and making his own guitar pedals. Loves ale and weed.
 
-__Doggy Dunton__ on drums. Gentleman farmer, bon-viveur, and charmer. Knows the name of every plant. Loves good food and pinot noir.
+__Doggy Dunton__ on Drums. Gentleman farmer, bon-viveur, and charmer. Knows the name of every plant. Loves good food and old cars.
 
-For more about us, check out [an interview with Badger here](top/interview/)
+For more about us, here is an [interview with Badger](top/interview/)
 
 # Releases
