@@ -1,5 +1,6 @@
 ---
 title: Interview
+cover: badger-astro.jpg
 ---
 This was an interview Badger did did with the [Is My Music Fire blog](https://ismymusicfire.com/2021/03/03/interview-with-singer-bass-player-badger-brewington/), published on 5/3/2021.
 

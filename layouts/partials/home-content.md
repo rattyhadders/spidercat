@@ -1,8 +1,11 @@
-# Spidercat
+__Follow us on:__\
+[Twitter](https://twitter.com/SpidercatB)\
+[Instagram](https://www.instagram.com/spidercatratty/)\
+[BandCamp](https://spidercat.bandcamp.com/)\
+[Spotify](https://open.spotify.com/artist/21gCBDxNPbt9t2UppCJQRZ?si=uXKyGWNyQmWrWRA4MgZJnw)\
+[Sound Cloud](https://soundcloud.com/user-161325081-780103189)
 
-__Follow us on: [Twiter](https://twitter.com/SpidercatB), [BandCamp](https://spidercat.bandcamp.com/), and [Spotify](https://open.spotify.com/artist/21gCBDxNPbt9t2UppCJQRZ?si=uXKyGWNyQmWrWRA4MgZJnw)__
-
-Spidercat. We are Badger, Ratty, and Dog. We live on a farm in Sussex and make epic, progressive, retro rock/pop. We are not a spider, or a cat.
+Spidercat. We are Badger, Ratty, and Dog. We live on a farm in Sussex, UK, and make epic, psychedelic, rock/pop. We are not a spider, or a cat.
 
 __Badger Brewington__ on Bass, Vocals, and Keys. Space-shaman, eco-spiritualist, Artist, and Poet. Can feel the energy on Mount Caburn. Loves ale and mushrooms.
 
